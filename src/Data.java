@@ -32,4 +32,9 @@ public class Data {
     public void setRegione(String regione) {
         this.regione = regione;
     }
+
+    @Override
+    public String toString() {
+        return anno+";"+regione+";"+percentuale;
+    }
 }
